@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+.main{
+    width: 966px;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
+}
+#nu{
+    color: red;
+    font-size: 10px;
+}
+#ser{
+    color: red;
+    font-size: 10px;
+}
+.top{
+    text-align: center;
+}
+.top-1{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 100px;
+}
+.img-1{
+    float: left;
+}
+.img-2{
+    float: left;
+    margin-left: 100px;
+}
+.img-3{
+    float: right;
+}
+.blog{
+    overflow: auto;
+    margin-top: 30px;
+}
+.date{
+    color: gray;
+}
+.about{
+    font-weight: bold;
+}
+.view{
+    margin-top: 30px;
+    text-align: center;
+}
+#post{
+    height: 20px;
+    width: 100px;
+    background-color: orangered;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+.top-2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.top-b{
+    display: flex;
+}
+@media screen and (max-width:720px) {
+    .main{
+        background-color: blue;
+    }
+}
